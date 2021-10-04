@@ -13,7 +13,7 @@
   --nav-link-hover-cl: #204629;
   --navbar-height: 50px;
   --sidebar-width: 300px;
-  --cart-width: 290px;
+  --cart-width: 320px;
   --cart-remove-btn-cl: #ab2f18;
   --cart-bg-cl: #ececec;
   --hero-content-width: 300px;
@@ -146,7 +146,7 @@ SIDEBAR
   display: block;
   padding: 1em 0.3em;
   transition: 0.5s;
-  font-size: 0.55em;
+  font-size: 0.80em;
 }
 .sidebar__items .nav__links:hover {
   background: var(--nav-link-hover-cl);
@@ -175,10 +175,23 @@ CART
   left: 1em;
   top: 1em;
   cursor: pointer;
+  font-size: 1em;
 }
 .cart__slide {
   width: var(--cart-width);
   height: 100vh;
+}
+
+@media screen and (max-width: 280px) {
+   .cart__slide {
+      width: 280px;
+   }
+} 
+
+@media screen and (min-width: 500px) {
+   .cart__slide {
+      width: 500px;
+   }
 }
 .cart__container {
   margin-top: calc(var(--navbar-height) + 25px);
@@ -201,7 +214,7 @@ CART
   box-shadow: 0 1px 5px var(--light-cl);
 }
 .cart__item__title {
-  font-size: 0.50em;
+  font-size: 0.70em;
   text-transform: capitalize;
   font-weight: 500;
 }
@@ -212,8 +225,8 @@ CART
 }
 
 .cart__left img {
-  width: 60%;
-  height: 50px;
+  width: 80%;
+  height: 70px;
 }
 
 .cart__right {
@@ -239,7 +252,7 @@ CART
   outline: none;
 }
 .cart__item__price {
-   font-size: 0.55em;
+   font-size: 0.70em;
 }
 .cart__right .flex__end {
   flex: 2;
@@ -275,6 +288,12 @@ CART
   padding: 0.5em;
   margin-bottom: 2em;
   margin-top: 1em;
+}
+
+@media screen and (min-width: 387.55px) {
+   .total__container {
+      padding-bottom: 1em;
+   }
 }
 
 .purchase__btn {
@@ -356,7 +375,7 @@ MODERN ITEMS
   justify-content: space-between;
 }
 .items__info span {
-  font-size: 0.55em;
+  font-size: 0.80em;
   font-weight: bold;
   text-transform: capitalize;
   padding: 2px;
@@ -364,22 +383,24 @@ MODERN ITEMS
 .items__info .item__name {
   color: #e17f4f;
 }
-.overlay__container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  bottom: 0;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 0;
-  overflow: hidden;
-  transition: 0.5s;
-}
-.items:hover .overlay__container {
-  height: 100%;
+@media screen and (min-width: 900px) {
+   .overlay__container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      bottom: 0;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 0;
+      overflow: hidden;
+      transition: 0.5s;
+    }
+    .items:hover .overlay__container {
+      height: 100%;
+    }
 }
 .icon {
   width: 30px;
@@ -390,7 +411,7 @@ MODERN ITEMS
   justify-content: center;
   align-items: center;
   color: black;
-  font-size: .55em;
+  font-size: .70em;
   margin: 0 5px;
 }
 

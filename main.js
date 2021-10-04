@@ -17,7 +17,7 @@ function toggleCartBar() {
    const cartContainer = document.getElementById("cart-container");
    cartContainer.classList.toggle("cart__slide");
    if(cartContainer.classList.contains("cart__slide")) {
-      // document.body.style.background = 
+      // document.body.style.background = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))'
    }
 }
 
