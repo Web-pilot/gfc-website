@@ -6,157 +6,157 @@
          "id": "1",
           "title": "two in one cupboard",
           "price": "13.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/cup1.jpg"
+          "img": "https://ochagwufc.netlify.app/FurnitureImage/cup1.jpg"
         },
         {
           "id": "2",
           "title": "rice table",
           "price": "63.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/din1.jpg"
+          "img": "https://ochagwufc.netlify.app/FurnitureImage/din1.jpg"
         },
         {
           "id": "3",
           "title": "vip bed",
           "price": "500.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/liv1.jpg"
+          "img": "https://ochagwufc.netlify.app/FurnitureImage/liv1.jpg"
         },
         {
           "id": "4",
           "title": "presidential kit",
           "price": "233.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/kit1.jpg"
+          "img": "https://ochagwufc.netlify.app/FurnitureImage/kit1.jpg"
         },
         {
           "id": "5",
           "title": "white cupboard",
           "price": "63.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/cup2.jpg"
+          "img": "https://ochagwufc.netlify.app/FurnitureImage/cup2.jpg"
         },
         {
           "id": "6",
           "title": "the blues bed",
           "price": "23.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/bed4.jpg"
+          "img": "https://ochagwufc.netlify.app//bed4.jpg"
         },
         {
          "id": "7",
          "title": "yellow cupboard",
          "price": "53.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/cup3.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/cup3.jpg"
        },
        {
          "id": "8",
          "title": "capet table",
          "price": "33.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/din2.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/din2.jpg"
        },
        {
          "id": "9",
          "title": "memorial bed",
          "price": "500.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/liv2.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/liv2.jpg"
        },
        {
          "id": "10",
          "title": "arsenal kitchen",
          "price": "33.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/kit2.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/kit2.jpg"
        },
        {
          "id": "11",
          "title": "yellow cupboard",
          "price": "63.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/cup4.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/cup4.jpg"
        },
        {
          "id": "12",
          "title": "the blues bed",
          "price": "213.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/bed4.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/bed4.jpg"
        },
        {
          "id": "13",
          "title": "yellow cupboard",
          "price": "53.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/kit3.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/kit3.jpg"
        },
        {
          "id": "14",
          "title": "brown table",
          "price": "33.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/din4.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/din4.jpg"
        },
        {
          "id": "15",
          "title": "balance bed",
          "price": "500.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/bed3.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/bed3.jpg"
        },
        {
          "id": "16",
          "title": "coner kitchen",
          "price": "33.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/kit4.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/kit4.jpg"
        },
        {
          "id": "17",
          "title": "wizkid bed",
          "price": "63.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/bed2.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/bed2.jpg"
        },
        {
          "id": "18",
          "title": "election table",
          "price": "23.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/din3.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/din3.jpg"
        },
        {
          "id": "19",
          "title": "body masasha",
          "price": "63.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/bed5.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/bed5.jpg"
        },
        {
          "id": "20",
          "title": "beyonce parlour",
          "price": "23.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/liv3.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/liv3.jpg"
        },
        {
          "id": "21",
          "title": "brown table",
          "price": "33.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/img1.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/img1.jpg"
        },
        {
          "id": "22",
          "title": "balance bed",
          "price": "500.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/img2.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/img2.jpg"
        },
        {
          "id": "23",
          "title": "coner kitchen",
          "price": "33.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/img3.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/img3.jpg"
        },
        {
          "id": "24",
          "title": "wizkid bed",
          "price": "63.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/img4.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/img4.jpg"
        },
        {
          "id": "25",
          "title": "election table",
          "price": "23.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/img5.jpg"
+         "img": "https://ochagwufc.netlify.app//img5.jpg"
        },
        {
          "id": "26",
          "title": "body masasha",
          "price": "63.3",
-         "img": "http://127.0.0.1:5501/FurnitureImage/img6.jpg"
+         "img": "https://ochagwufc.netlify.app/FurnitureImage/img6.jpg"
        }
       ],
 
@@ -166,19 +166,19 @@
           "id": "1",
           "title": "two in one cupboard",
           "price": "13.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/cup1.jpg"
+          "img": "https://ochagwufc.netlify.app/FurnitureImage/cup1.jpg"
         },
         {
           "id": "2",
           "title": "rice table",
           "price": "63.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/din1.jpg"
+          "img": "https://ochagwufc.netlify.app/FurnitureImage/din1.jpg"
         },
         {
           "id": "3",
           "title": "vip bed",
           "price": "500.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/liv1.jpg"
+          "img": "https://ochagwufc.netlify.app//liv1.jpg"
         }
       ],
 
@@ -187,19 +187,19 @@
           "id": "4",
           "title": "presidential kit",
           "price": "233.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/kit1.jpg"
+          "img": "https://ochagwufc.netlify.app//kit1.jpg"
         },
         {
           "id": "5",
           "title": "white cupboard",
           "price": "63.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/cup2.jpg"
+          "img": "https://ochagwufc.netlify.app/FurnitureImage/cup2.jpg"
         },
         {
           "id": "6",
           "title": "the blues bed",
           "price": "213.3",
-          "img": "http://127.0.0.1:5501/FurnitureImage/bed4.jpg"
+          "img": "https://ochagwufc.netlify.app/FurnitureImage/bed4.jpg"
         }
       ]
     }
