@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Furniture Home</title>
+   <script src="https://kit.fontawesome.com/10214f4e22.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+   <!-- Navbar --------------------->
+   <header>
+      <nav class="navbar__header">
+         <div class="menu__btn__container">
+            <i class="fas fa-bars menu__btn" id="menu-btn"></i>
+         </div>
+         <div class="navbar__brand">
+            Godella's <span>COLLECTION</span>
+         </div>
+         <div class="cart__btn__container">
+               <i class="fas fa-cart-plus cart__btn" id="cart-btn"></i>
+               <span class="cart__badge" id="badge"></span>
+            </i>
+         </div>
+      </nav>
+   </header>
+
+   <!-- SIDEBAR ---------------->
+   <div class="sidebar__container" id="sidebar">
+      <ul class="sidebar__list">
+         <li class="sidebar__items">
+           <a href="#" class="nav__links active"><i class="fas fa-home"></i> Home</a>
+         </li>
+         <li class="sidebar__items">
+            <a href="product.html" class="nav__links"><i class="fas fa-couch"></i> More Products</a>
+          </li>
+          <li class="sidebar__items">
+            <a href="#" class="nav__links"><i class="fas fa-book"></i> About</a>
+          </li>
+          <li class="sidebar__items">
+            <a href="#" class="nav__links"><i class="fas fa-home"></i> Testimonials</a>
+          </li>
+      </ul>
+   </div>
+
+<!-- CART --------------------->
+
+   <section class="cart__fixed__container" id="cart-container">   
+      <h5 class="cart__heading">Your cart items</h5>
+      <span class="close__btn">
+         <i class="fas fa-times" id="close-btn"></i>
+      </span>
+      <main class="cart__container" id="product-container">
+   <!-- product will be added here from javascript -->
+
+   </main>
+   <hr>
+   <div class="total__container">
+      <span class="cart__total__price">
+         TOTAL : <span id="total">$0</span>
+      </span>
+      <button class="purchase__btn" id="purchase-btn">Purchase</button>
+   </div>
+
+   </section>
+
+   <!-- HERO IMAGE ----------------------->
+   <main class="hero__container">
+      <div class="hero__content">
+         <h5 class="hero__title">Ochagwu's Furniture Collection</h5>
+         <button class="btn hero__btn">
+            <a href="#" class="nav__links">Shop now</a>
+         </button>
+      </div>
+   </main>
+
+
+   <!-- MODERN PRODUCT -->
+
+   <section class="main__container">
+      <h4 class="section__title">modern items</h4>
+
+   <div class="container items__container" id="modern-product-container">
+      
+
+   </div>
+   </div>
+
+</section>
+
+<!-- LATEST PRODUCT ---------------------------->
+<section class="container">
+   <h4 class="section__title">Latest dinning tables</h4>
+
+   <div class="container items__container" id="latest-product-container">
+      
+       
+   </div>
+
+</section>
+
+
+<!-- SIGNUP FOR OUR NEWS LETTER -->
+
+<section class="container">
+   <div class="main__container news__flex">
+      <h4 class="section__title">Stay Updated</h4>
+      <form class="form__news__letter">
+         <label for="Email">Email</label>
+         <input type="email" name="" id="news__input">
+         <input type="submit" value="Send" class="btn">
+      </form>
+   </div>
+</section>
+
+
+
+<!-- FOOTER ---------------------->
+<footer class="footer">
+
+   <div class="container footer__container">
+         <div class="left">
+            <span>
+              <a href="#"><i class="fab fa-facebook-f footer__icon icon"></i></a>
+            </span>
+
+            <span>
+               <a href="#"><i class="fab fa-instagram footer__icon icon"></i></a>
+            </span>
+
+            <span>
+               <a href="#"><i class="fab fa-twitter footer__icon icon"></i></a>
+            </span>
+         </div>
+
+         <div class="center">
+            <small style="color: #1a5261">
+               <i class="far fa-phone"></i>+234-815-809-9730
+            </small>
+         </div>
+
+         <div class="right" style="font-size: .55em;">
+            LOCATON: <b>Effiom Edumoga, Okpokwu</b>
+         </div>
+   </div>
+
+   <span style="text-align: center;">&copy; 2021 Web-Pilot</span>
+</footer>
+
+
+
+
+
+<script src="main.js"></script>
+
+<script>
+   get_modern_product_from_api()
+</script>
+</body>
+</html>

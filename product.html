@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furnitrue ventrue</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css" />
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body>
+    <!-- Navbar --------------------->
+    <header>
+      <nav class="navbar__header">
+        <div class="menu__btn__container">
+          <i class="fas fa-home menu__btn" id="menu-btn"></i>
+        </div>
+        <div class="navbar__brand">Godela's <span>COLLECTION</span></div>
+        <div class="cart__btn__container">
+          <i class="fas fa-plus cart__btn" id="cart-btn">
+            <span class="cart__badge" id="badge"></span>
+          </i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- SIDEBAR ---------------->
+    <div class="sidebar__container" id="sidebar">
+      <ul class="sidebar__list">
+        <li class="sidebar__items">
+          <a href="index.html" class="nav__links"
+            ><i class="fas fa-home"></i> Home</a
+          >
+        </li>
+        <li class="sidebar__items">
+          <a href="product.html" class="nav__links active"
+            ><i class="fas fa-book"></i> More Products</a
+          >
+        </li>
+        <li class="sidebar__items">
+          <a href="#" class="nav__links"><i class="fas fa-home"></i> About</a>
+        </li>
+        <li class="sidebar__items">
+          <a href="#" class="nav__links"
+            ><i class="fas fa-home"></i> Testimonials</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- CART --------------------->
+
+    <section class="cart__fixed__container" id="cart-container">
+      <h5 class="cart__heading">Your cart items</h5>
+      <main class="cart__container" id="product-container"></main>
+      <hr />
+      <div class="total__container">
+        <span class="cart__total__price">
+          TOTAL : <span id="total">$0</span>
+        </span>
+        <button class="purchase__btn" id="purchase-btn">Purchase</button>
+      </div>
+    </section>
+
+    <!-- HERO IMAGE ----------------------->
+    <main class="hero__container">
+      <div class="hero__content">
+        <h5 class="hero__title">
+          Are you looking for anything that has to do with Furnitring your home,
+          then Godela collection is the right place for you
+        </h5>
+      </div>
+    </main>
+
+    <!-- MODERN PRODUCT -->
+
+    <section class="main__container">
+      <form class="search__form">
+        <input
+          type="search"
+          name="search"
+          class="search__input"
+          placeholder="Search..."
+        />
+        <input type="submit" name="" id="" value="Search" />
+      </form>
+
+      <h4 class="section__title">All products</h4>
+
+      <div class="container items__container" id="all__products"></div>
+    </section>
+
+    <main class="container"></main>
+
+    <!-- JAVASCRIPT -->
+    <script src="main.js"></script>
+    <script>
+      get_All_product_from_api();
+    </script>
+  </body>
+</html>

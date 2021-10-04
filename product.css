@@ -1,0 +1,59 @@
+.hero__container {
+   height: calc(70vh);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(FurnitureImage/bed4.jpg) center/cover no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__content {
+   width: 100%;
+   padding: 1em;
+   color: var(--light-cl);
+   background: none;
+   letter-spacing: 1px;
+   font-family: 'Courier New', Courier, monospace;
+ }
+ .search__form {
+    margin: 0.5em auto 2em auto;
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    padding: .5em;
+ }
+.search__form .search__input {
+   padding: 0 .2em;
+   width: 80%;
+   border: none;
+   box-shadow: 0 0 1px;
+   margin: .3em;
+}
+.search__form .search__input:focus {
+   outline: none;
+   box-shadow: 0 0 2px blue;
+}
+.search__form input[type=submit] {
+   font-size: .55em;
+   align-self: center;
+   border: none;
+   cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+   .search__form {
+      max-width: 500px;
+   }
+}
+.icon {
+   width: 30px;
+   height: 30px;
+   background: white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   font-size: .55em;
+   margin: 0 5px;
+ }
+ 
