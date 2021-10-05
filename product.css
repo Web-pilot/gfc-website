@@ -53,14 +53,8 @@
    position: absolute;
  }
  .icon {
-   width: 30px;
-   height: 30px;
-   background: white;
-   border-radius: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   color: black;
-   font-size: .55em;
-   margin: 0 5px;
+   
+   font-size: 1em;
+   background : none;
+   color: white;
  }
