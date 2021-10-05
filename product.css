@@ -44,7 +44,15 @@
       max-width: 500px;
    }
 }
-.icon {
+
+ 
+ #add-to-cart {
+   left: 50%;
+   transform: translate(-50%);
+   bottom: 0;
+   position: absolute;
+ }
+ .icon {
    width: 30px;
    height: 30px;
    background: white;
@@ -55,11 +63,4 @@
    color: black;
    font-size: .55em;
    margin: 0 5px;
- }
- 
- #add-to-cart {
-   left: 50%;
-   transform: translate(-50%);
-   bottom: 0;
-   position: absolute;
  }
