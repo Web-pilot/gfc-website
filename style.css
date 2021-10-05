@@ -91,13 +91,10 @@ General style ends here
   position: absolute;
   top: -10px;
   right: -5px;
-  z-index: 55;
-  background: var(--navbar-cl);
-  color: blue;
-  width: 20px;
-  height: 20px;
+  z-index: 59;
+  color: red;
   border-radius: 50%;
-  font-size: 0.55em;
+  font-size: 0.70em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,6 +379,12 @@ MODERN ITEMS
 }
 .items__info .item__name {
   color: #e17f4f;
+}
+#add-to-cart {
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  position: absolute;
 }
 @media screen and (min-width: 900px) {
    .overlay__container {
