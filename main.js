@@ -33,7 +33,7 @@ async function get_All_product_from_api() {
     allProduct.map((product) => show_All_Product(product.all));
   }
 }
-
+get_All_product_from_api()
 async function get_modern_product_from_api() {
   const res = await fetch("api.json");
   const data = await res.json();
