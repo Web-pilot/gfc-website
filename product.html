@@ -7,26 +7,30 @@
     <title>Furnitrue ventrue</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="product.css" />
-    <script src="https://kit.fontawesome.com/10214f4e22.js" crossorigin="anonymous"></script>
-   <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/10214f4e22.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Birthstone&family=Oswald:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar --------------------->
     <header>
       <nav class="navbar__header">
-         <div class="menu__btn__container">
-            <i class="fas fa-bars menu__btn" id="menu-btn"></i>
-         </div>
-         <div class="navbar__brand">
-            Godella's <span>COLLECTION</span>
-         </div>
-         <div class="cart__btn__container">
-            <i class="fas fa-cart-plus cart__btn" id="cart-btn">
-               <span class="cart__badge" id="badge"></span>
-            </i>
-         </div>
+        <div class="menu__btn__container">
+          <i class="fas fa-bars menu__btn" id="menu-btn"></i>
+        </div>
+        <div class="navbar__brand">Godella's <span>COLLECTION</span></div>
+        <div class="cart__btn__container">
+          <i class="fas fa-cart-plus cart__btn" id="cart-btn">
+            <span class="cart__badge" id="badge"></span>
+          </i>
+        </div>
       </nav>
-   </header>
+    </header>
 
     <!-- SIDEBAR ---------------->
     <div class="sidebar__container" id="sidebar">
@@ -58,10 +62,8 @@
       <h5 class="cart__heading">Your cart items</h5>
       <span class="close__btn">
         <i class="fas fa-times" id="close-btn"></i>
-     </span>
-      <main class="cart__container" id="product-container">
-        
-      </main>
+      </span>
+      <main class="cart__container" id="product-container"></main>
       <hr />
       <div class="total__container">
         <span class="cart__total__price">
@@ -75,8 +77,9 @@
     <main class="hero__container">
       <div class="hero__content">
         <h5 class="hero__title">
-          Are you looking for anything that has to do with Furnitring your home,
-          then Godela collection is the right place for you
+          Are you looking for anything that has to do with Furnituring your home,
+          then Godella collection is the right place for you. <br>
+          <em>The beauty of your home is our concern</em>
         </h5>
       </div>
     </main>
@@ -84,22 +87,50 @@
     <!-- MODERN PRODUCT -->
 
     <section class="main__container">
-      <form class="search__form">
+      <form class="search__form" id="search-form">
         <input
           type="search"
           name="search"
           class="search__input"
           placeholder="Search..."
+          id="search"
+          value=""
         />
         <input type="submit" name="" id="" value="Search" />
       </form>
 
-      <h4 class="section__title">All products</h4>
+      <h4 class="section__title" id="all-product-heading">All products</h4>
 
       <div class="container items__container" id="all__products"></div>
     </section>
 
     <main class="container"></main>
+
+    <!-- FOOTER ---------------------->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="left">
+          <span>
+            <a href="#"><i class="fab fa-facebook-f footer__icon icon"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="fab fa-instagram footer__icon icon"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="fab fa-twitter footer__icon icon"></i></a>
+          </span>
+        </div>
+        <div class="center">
+          <small style="color: #1a5261">
+            <i class="far fa-phone"></i>+234-815-809-9730
+          </small>
+        </div>
+        <div class="right" style="font-size: 0.55em">
+          LOCATON: <b>Effiom Edumoga, Okpokwu</b>
+        </div>
+      </div>
+      <span style="text-align: center">&copy; 2021 Web-Pilot</span>
+    </footer>
 
     <!-- JAVASCRIPT -->
     <script src="main.js"></script>
